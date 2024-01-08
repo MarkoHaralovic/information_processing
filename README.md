@@ -1,4 +1,4 @@
-# data_analysis
+# Information Processing Course
 
 This repository consists exploration of signal processing, bioinformatics, and image analysis using Fourier transforms and hidden Markov models. It is based on the course "Information Processing" done on college Faculty of Electrical Engineering and Computing (FER) in Zagreb,Croatia.
 
