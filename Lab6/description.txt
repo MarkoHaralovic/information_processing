@@ -1,0 +1,18 @@
+OPIS POSTUPKA ZA LABOS 6
+----------------------------------------------------------------
+
+Odabrao sam base mesh (sloj 15) te sam potom dodavao slojeve, jedan po jedan te ih spajao koristeći point based gluing
+( koristeći 4 referentne točke za svaki par).
+
+Iz prve sam loše napravio, kasnije sam dva,tri puta bio skoro gotov pa se MeshaLab srušio, tako da sam tako nekoliko puta iz nule 
+kretao sa spajanjem.
+
+U zadnjoj iteraciji, najveći problem sam imao s dva sloja (6. i 8.), koji su bili potpuno neporavnati nakon point based gluinga,
+odnosno "lebdjeli" su udaljeni od ostalih merganih slojeva.
+
+Ta sam dva sloja spojio manualno (manual rough gluing).
+
+Nakon svakog spajanja, pokrenuo sam "PROCESS", odnosno pokrenuo bih ICP (Iterative Closest Point) algoritam te bih dobio ispis,
+odnosno ukupnu grešku poravnjanja. Nakon dodavanja slojeva, samo su neporavnati meshevi bili poravnati.
+
+Nakon toga, na svim slojevima, primjenio sam Poissonovu triangulaciju te sam taj mesh izvezao i njega predajem na Moodle.
